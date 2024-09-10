@@ -29,6 +29,26 @@ class page2 extends StatelessWidget {
             width: 100,
             color: Colors.amber,
           ),
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.white,
+          ),
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.black,
+          ),
+          Container(
+            height: 100,
+            width: 100,
+            color: Color.fromARGB(255, 175, 76, 134),
+          ),
+          Container(
+            height: 100,
+            width: 100,
+            color: Color.fromARGB(255, 155, 76, 175),
+          ),
         ],
       ),
     ));
