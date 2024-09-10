@@ -6,51 +6,66 @@ class page2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Center(
-      child: Row(
+      body: Row(
         children: [
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.red,
+          Column(
+            children: [
+              Container(
+                height: 100,
+                width: 100,
+                color: Colors.red,
+              ),
+              Container(
+                height: 100,
+                width: 100,
+                color: Colors.green,
+              ),
+            ],
           ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.green,
+          Column(
+            children: [
+              Container(
+                height: 100,
+                width: 100,
+                color: Colors.blue,
+              ),
+              Container(
+                height: 100,
+                width: 100,
+                color: Colors.amber,
+              ),
+            ],
           ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.blue,
+          Column(
+            children: [
+              Container(
+                height: 100,
+                width: 100,
+                color: Colors.white,
+              ),
+              Container(
+                height: 100,
+                width: 100,
+                color: Colors.black,
+              ),
+            ],
           ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.amber,
-          ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.white,
-          ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.black,
-          ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Color.fromARGB(255, 175, 76, 134),
-          ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Color.fromARGB(255, 155, 76, 175),
+          Column(
+            children: [
+              Container(
+                height: 100,
+                width: 100,
+                color: Color.fromARGB(255, 175, 76, 134),
+              ),
+              Container(
+                height: 100,
+                width: 100,
+                color: Color.fromARGB(255, 155, 76, 175),
+              ),
+            ],
           ),
         ],
       ),
-    ));
+    );
   }
 }
