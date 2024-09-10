@@ -7,7 +7,30 @@ class page2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Center(
-      child: Text('ini halaman 2'),
+      child: Row(
+        children: [
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.red,
+          ),
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.green,
+          ),
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.blue,
+          ),
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.amber,
+          ),
+        ],
+      ),
     ));
   }
 }
